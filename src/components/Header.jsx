@@ -51,7 +51,7 @@ function Header() {
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1, transition: { type: "spring" } }}
-            className="absolute glass top-10 select-none w-[200px] bg-white/80  shadow drop-shadow-lg py-10 text-lg px-10 items-center right-0 rounded-lg flex gap-5 flex-col">
+            className="absolute backdrop-blur-[18px] top-10 select-none w-[200px] bg-white/5  shadow-lg  py-10 text-lg px-10 items-center right-0 rounded-lg flex gap-5 flex-col">
             {menuItems.map((item) => (
               <p
                 className={clsx(
